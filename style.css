@@ -624,6 +624,18 @@ nav .nav-list li a.nav-highlight:hover {
   color: var(--text-tertiary);
 }
 
+.article-journal-link {
+  display: inline-block;
+  color: var(--accent);
+  font-weight: 600;
+  font-size: 0.9rem;
+  transition: color var(--transition);
+}
+
+.article-journal-link:hover {
+  color: var(--accent-hover);
+}
+
 /* --- Aside / Sidebar --- */
 aside {
   flex: 0 0 320px;
