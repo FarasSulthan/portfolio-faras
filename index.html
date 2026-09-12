@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Portfolio pribadi Faras Sulthan Pratama - Mahasiswa Informatika & Web Developer">
+  <title>Faras Sulthan Pratama | Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <!-- HEADER -->
+  <header>
+    <div class="header-inner">
+      <h1 class="logo">
+        <span class="logo-icon">▲</span> Portofolio Faras Sulthan Pratama
+      </h1>
+      <nav>
+        <ul class="nav-list">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#articles">Articles</a></li>
+          <li><a href="https://www.dicoding.com/users/farasha/academies" target="_blank" rel="noopener noreferrer"
+              class="nav-highlight">Dicoding Profile</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- MAIN CONTENT -->
+  <main id="home">
+
+    <!-- Hero Section -->
+    <section class="hero">
+      <div class="hero-content">
+        <p class="hero-greeting">Halo, saya</p>
+        <h2 class="hero-name">Faras Sulthan Pratama</h2>
+        <p class="hero-tagline">Mahasiswa Informatika yang tertarik dengan dunia <span class="text-accent">Web
+            Development</span>, <span class="text-accent">UI/UX Design</span>, dan <span class="text-accent">Teknologi
+            Modern</span>.</p>
+        <div class="hero-actions">
+          <a href="#projects" class="btn btn-primary">Lihat Project</a>
+          <a href="https://www.dicoding.com/users/farasha/academies" target="_blank" rel="noopener noreferrer"
+            class="btn btn-outline">Dicoding ↗</a>
+        </div>
+      </div>
+      <div class="hero-visual">
+        <div class="hero-card">
+          <div class="card-dot"></div>
+          <div class="card-dot"></div>
+          <div class="card-dot"></div>
+          <pre class="code-block"><code><span class="code-keyword">const</span> <span class="code-var">developer</span> = {
+  <span class="code-prop">name</span>: <span class="code-string">"Faras Sulthan Pratama"</span>,
+  <span class="code-prop">role</span>: <span class="code-string">"Mahasiswa"</span>,
+  <span class="code-prop">minat</span>: [
+    <span class="code-string">"Web Dev"</span>,
+    <span class="code-string">"Mobile Dev"</span>,
+    <span class="code-string">"UI/UX Design"</span>
+  ],
+  <span class="code-prop">hobi</span>: <span class="code-string">"Coding & Gaming"</span>,
+  <span class="code-prop">learning</span>: <span class="code-keyword">true</span>
+};</code></pre>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section class="projects-section" id="projects">
+      <div class="section-header">
+        <p class="section-label">Portfolio</p>
+        <h2 class="section-title">Featured Projects</h2>
+        <p class="section-desc">Kumpulan project yang telah saya kerjakan. Setiap project mencerminkan proses belajar dan eksplorasi teknologi.</p>
+      </div>
+
+      <div class="projects-grid">
+
+        <!-- Project Card 1 -->
+        <div class="project-card project-card--featured">
+          <div class="project-card__preview">
+            <div class="project-card__preview-placeholder">
+              <span class="preview-icon">🌐</span>
+              <span class="preview-text">Website Preview</span>
+            </div>
+          </div>
+          <div class="project-card__body">
+            <div class="project-card__tags">
+              <span class="project-tag">HTML</span>
+              <span class="project-tag">CSS</span>
+              <span class="project-tag">JavaScript</span>
+            </div>
+            <h3 class="project-card__title">Portfolio Website</h3>
+            <p class="project-card__desc">Website portfolio pribadi yang responsif dengan desain modern dark theme terinspirasi dari Vercel.</p>
+            <div class="project-card__links">
+              <a href="#" class="project-link project-link--primary">
+                <span class="link-icon">◉</span> Live Demo
+              </a>
+              <a href="#" class="project-link project-link--secondary">
+                <span class="link-icon">↗</span> Source Code
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Project Card 2 -->
+        <div class="project-card">
+          <div class="project-card__preview">
+            <div class="project-card__preview-placeholder">
+              <span class="preview-icon">📱</span>
+              <span class="preview-text">App Preview</span>
+            </div>
+          </div>
+          <div class="project-card__body">
+            <div class="project-card__tags">
+              <span class="project-tag">Flutter</span>
+              <span class="project-tag">Dart</span>
+            </div>
+            <h3 class="project-card__title">Mobile App Project</h3>
+            <p class="project-card__desc">Aplikasi mobile cross-platform yang dibangun menggunakan Flutter framework.</p>
+            <div class="project-card__links">
+              <a href="#" class="project-link project-link--primary">
+                <span class="link-icon">◉</span> Live Demo
+              </a>
+              <a href="#" class="project-link project-link--secondary">
+                <span class="link-icon">↗</span> Source Code
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Project Card 3 -->
+        <div class="project-card">
+          <div class="project-card__preview">
+            <div class="project-card__preview-placeholder">
+              <span class="preview-icon">🐍</span>
+              <span class="preview-text">Script Preview</span>
+            </div>
+          </div>
+          <div class="project-card__body">
+            <div class="project-card__tags">
+              <span class="project-tag">Python</span>
+            </div>
+            <h3 class="project-card__title">Python Automation</h3>
+            <p class="project-card__desc">Script automasi untuk berbagai tugas menggunakan Python dan library modern.</p>
+            <div class="project-card__links">
+              <a href="#" class="project-link project-link--primary">
+                <span class="link-icon">◉</span> Live Demo
+              </a>
+              <a href="#" class="project-link project-link--secondary">
+                <span class="link-icon">↗</span> Source Code
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Project Card 4 -->
+        <div class="project-card">
+          <div class="project-card__preview">
+            <div class="project-card__preview-placeholder">
+              <span class="preview-icon">🎮</span>
+              <span class="preview-text">Game Preview</span>
+            </div>
+          </div>
+          <div class="project-card__body">
+            <div class="project-card__tags">
+              <span class="project-tag">JavaScript</span>
+              <span class="project-tag">Canvas</span>
+            </div>
+            <h3 class="project-card__title">Mini Game</h3>
+            <p class="project-card__desc">Game sederhana berbasis browser yang dibuat dengan JavaScript dan HTML5 Canvas.</p>
+            <div class="project-card__links">
+              <a href="#" class="project-link project-link--primary">
+                <span class="link-icon">◉</span> Live Demo
+              </a>
+              <a href="#" class="project-link project-link--secondary">
+                <span class="link-icon">↗</span> Source Code
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Project Card 5 -->
+        <div class="project-card">
+          <div class="project-card__preview">
+            <div class="project-card__preview-placeholder">
+              <span class="preview-icon">🎨</span>
+              <span class="preview-text">Design Preview</span>
+            </div>
+          </div>
+          <div class="project-card__body">
+            <div class="project-card__tags">
+              <span class="project-tag">Figma</span>
+              <span class="project-tag">UI/UX</span>
+            </div>
+            <h3 class="project-card__title">UI/UX Case Study</h3>
+            <p class="project-card__desc">Studi kasus desain antarmuka pengguna dengan pendekatan user-centered design.</p>
+            <div class="project-card__links">
+              <a href="#" class="project-link project-link--primary">
+                <span class="link-icon">◉</span> Live Demo
+              </a>
+              <a href="#" class="project-link project-link--secondary">
+                <span class="link-icon">↗</span> Source Code
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Project Card 6 -->
+        <div class="project-card">
+          <div class="project-card__preview">
+            <div class="project-card__preview-placeholder">
+              <span class="preview-icon">⚡</span>
+              <span class="preview-text">API Preview</span>
+            </div>
+          </div>
+          <div class="project-card__body">
+            <div class="project-card__tags">
+              <span class="project-tag">REST API</span>
+              <span class="project-tag">Node.js</span>
+            </div>
+            <h3 class="project-card__title">API Service</h3>
+            <p class="project-card__desc">RESTful API service dengan dokumentasi lengkap dan endpoint yang terstruktur.</p>
+            <div class="project-card__links">
+              <a href="#" class="project-link project-link--primary">
+                <span class="link-icon">◉</span> Live Demo
+              </a>
+              <a href="#" class="project-link project-link--secondary">
+                <span class="link-icon">↗</span> Source Code
+              </a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- Content + Aside Layout -->
+    <div class="content-wrapper" id="articles">
+
+      <!-- Articles Section -->
+      <div id="content">
+
+        <article class="article-card">
+          <div class="article-tag">Web Development</div>
+          <h3>Mengapa Belajar Dasar Pemrograman Web Itu Penting?</h3>
+          <p>
+            Di era digital saat ini, hampir semua aspek kehidupan terhubung dengan teknologi web. Mulai dari berbelanja,
+            belajar, hingga bekerja — semuanya dilakukan melalui platform berbasis web. Memahami dasar pemrograman web
+            seperti HTML, CSS, dan JavaScript bukan lagi sekadar keahlian teknis, melainkan menjadi <em>literasi
+              digital</em> yang esensial.
+          </p>
+          <p>
+            HTML memberikan struktur pada halaman web, CSS menghidupkan tampilan visual, dan JavaScript menambahkan
+            interaktivitas. Ketiganya membentuk fondasi dari hampir seluruh website yang kita gunakan setiap hari.
+            Dengan menguasai ketiganya, kita dapat membangun aplikasi web yang fungsional dan menarik.
+          </p>
+          <p>
+            Bagi mahasiswa Informatika, pemahaman ini menjadi batu loncatan untuk mempelajari framework modern seperti
+            React, Vue, atau Next.js. Seperti membangun rumah — Anda harus memahami fondasi sebelum menambahkan lantai
+            kedua.
+          </p>
+          <div class="article-meta">
+            <span> 26 Juni 2026</span>
+            <span> 5 menit baca</span>
+          </div>
+        </article>
+
+        <article class="article-card">
+          <div class="article-tag">Tips & Trick</div>
+          <h3>Tips Menjadi Developer yang Lebih Produktif</h3>
+          <p>
+            Produktivitas dalam dunia development bukan hanya soal menulis kode lebih cepat, tetapi tentang menulis kode
+            yang <strong>lebih baik</strong> dengan <strong>lebih sedikit usaha</strong>. Berikut beberapa tips yang
+            saya terapkan selama belajar:
+          </p>
+          <ul class="article-list">
+            <li><strong>Gunakan Version Control (Git)</strong> — Simpan setiap perubahan kode Anda. Git bukan hanya
+              untuk tim, tetapi juga untuk proyek pribadi.</li>
+            <li><strong>Pahami sebelum mengkopi</strong> — Copy-paste dari StackOverflow boleh saja, tapi pastikan Anda
+              memahami setiap baris yang Anda salin.</li>
+            <li><strong>Belajar dari proyek nyata</strong> — Buat proyek kecil seperti portofolio, kalkulator, atau
+              to-do list. Pengalaman langsung jauh lebih berharga daripada teori.</li>
+            <li><strong>Istirahat teratur</strong> — Teknik Pomodoro (25 menit fokus, 5 menit istirahat) sangat efektif
+              untuk menjaga konsentrasi.</li>
+            <li><strong>Dokumentasikan pembelajaran</strong> — Tulis blog atau catatan tentang apa yang Anda pelajari.
+              Mengajarkan ulang adalah cara terbaik untuk memahami.</li>
+          </ul>
+          <div class="article-meta">
+            <span> 26 Juni 2026</span>
+            <span> 4 menit baca</span>
+          </div>
+        </article>
+
+      </div>
+
+      <!-- ASIDE / SIDEBAR -->
+      <aside>
+        <div class="aside-profile">
+          <img src="assets/profile.jpg" alt="Foto profil Faras Sulthan Pratama" class="profile-img">
+          <h3>Faras Sulthan Pratama</h3>
+          <p class="aside-role">Mahasiswa Informatika</p>
+        </div>
+
+        <div class="aside-section" id="about">
+          <h4>Biodata</h4>
+          <ul class="aside-info">
+            <li>
+              <span class="info-label">Nama</span>
+              <span class="info-value">Faras Sulthan Pratama</span>
+            </li>
+            <li>
+              <span class="info-label">Status</span>
+              <span class="info-value">Mahasiswa</span>
+            </li>
+            <li>
+              <span class="info-label">Minat</span>
+              <span class="info-value">Web Development Serta Mobile Developer, FullStack, Design UI/UX</span>
+            </li>
+            <li>
+              <span class="info-label">Hobi</span>
+              <span class="info-value">Coding & Gaming serta Nonton Film</span>
+            </li>
+          </ul>
+        </div>
+
+        <div class="aside-section">
+          <h4>Tech Stack</h4>
+          <div class="tech-tags">
+            <span class="tag">HTML</span>
+            <span class="tag">CSS</span>
+            <span class="tag">JavaScript</span>
+            <span class="tag">Python</span>
+            <span class="tag">Git</span>
+            <span class="tag">Flutter</span>
+          </div>
+        </div>
+
+        <div class="aside-section">
+          <a href="https://www.dicoding.com/users/farasha/academies" target="_blank" rel="noopener noreferrer"
+            class="aside-link">
+            Kunjungi Profil Dicoding ↗
+          </a>
+        </div>
+      </aside>
+
+    </div>
+
+  </main>
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="footer-inner">
+      <p>&copy; 2026 Faras Sulthan Pratama. Dibuat untuk submission Dicoding.</p>
+      <div class="footer-links">
+        <a href="https://www.dicoding.com/users/farasha/academies" target="_blank"
+          rel="noopener noreferrer">Dicoding</a>
+      </div>
+    </div>
+  </footer>
+
+</body>
+
+</html>
