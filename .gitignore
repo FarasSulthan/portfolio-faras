@@ -19,3 +19,6 @@ skills-lock.json
 # Archives
 *.zip
 
+# Dev scripts
+auto-deploy.ps1
+
