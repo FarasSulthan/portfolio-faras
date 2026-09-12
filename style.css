@@ -754,6 +754,10 @@ aside {
   transition: all var(--transition);
 }
 
+.aside-link + .aside-link {
+  margin-top: 8px;
+}
+
 .aside-link:hover {
   background-color: var(--accent-hover);
   color: #ffffff;
