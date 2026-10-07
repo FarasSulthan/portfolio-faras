@@ -201,7 +201,9 @@ nav .nav-list li a.nav-highlight:hover {
 }
 
 [data-theme="light"] .hero-visual .card-window {
-  background-color: #1e1e2e;
+  background-color: #1a1a2e;
+  border: 1px solid #d0d0d0;
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.08);
 }
 
 [data-theme="light"] .hero-visual .code-block {
@@ -213,12 +215,45 @@ nav .nav-list li a.nav-highlight:hover {
 [data-theme="light"] .hero-visual .code-prop { color: #e06c75; }
 [data-theme="light"] .hero-visual .code-string { color: #98c379; }
 
+[data-theme="light"] .project-card {
+  border-color: #d0d0d0;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.06);
+}
+
+[data-theme="light"] .project-card:hover {
+  border-color: #b0b0b0;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.08);
+}
+
+[data-theme="light"] .project-card--featured {
+  border-color: var(--accent-border);
+}
+
 [data-theme="light"] .project-card--featured:hover {
   box-shadow: 0 12px 40px rgba(0, 96, 209, 0.1);
 }
 
+[data-theme="light"] .project-card__preview {
+  border-bottom-color: #d0d0d0;
+}
+
+[data-theme="light"] .article-card {
+  border-color: #d0d0d0;
+}
+
 [data-theme="light"] .article-card:hover {
+  border-color: var(--accent-border);
   background-color: rgba(0, 0, 0, 0.015);
+}
+
+[data-theme="light"] aside .aside-profile,
+[data-theme="light"] aside .aside-section {
+  border: 1px solid #d0d0d0;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.06);
+}
+
+[data-theme="light"] .section-header .section-label {
+  border-color: #d0d0d0;
 }
 
 /* --- Hero Section --- */
