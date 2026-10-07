@@ -31,6 +31,9 @@
               class="nav-highlight">LinkedIn Profile</a></li>
         </ul>
       </nav>
+      <button class="theme-toggle" id="themeToggle" aria-label="Toggle theme">
+        <span class="material-symbols-rounded theme-toggle__icon" id="themeIcon">dark_mode</span>
+      </button>
     </div>
   </header>
 
@@ -404,6 +407,31 @@
       </div>
     </div>
   </footer>
+
+  <script>
+    const toggle = document.getElementById('themeToggle');
+    const icon = document.getElementById('themeIcon');
+    const root = document.documentElement;
+
+    function setTheme(theme) {
+      root.setAttribute('data-theme', theme);
+      icon.textContent = theme === 'light' ? 'light_mode' : 'dark_mode';
+      localStorage.setItem('theme', theme);
+    }
+
+    // Load saved theme or detect system preference
+    const saved = localStorage.getItem('theme');
+    if (saved) {
+      setTheme(saved);
+    } else if (window.matchMedia('(prefers-color-scheme: light)').matches) {
+      setTheme('light');
+    }
+
+    toggle.addEventListener('click', () => {
+      const current = root.getAttribute('data-theme');
+      setTheme(current === 'light' ? 'dark' : 'light');
+    });
+  </script>
 
 </body>
 
