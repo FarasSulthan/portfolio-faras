@@ -519,7 +519,14 @@ nav .nav-list li a.nav-highlight:hover {
 }
 
 .link-icon {
-  font-size: 0.75rem;
+  font-size: 0.85rem;
+  vertical-align: middle;
+}
+
+.meta-icon {
+  font-size: 0.9rem;
+  vertical-align: text-bottom;
+  margin-right: 2px;
 }
 
 /* --- Content + Aside Layout --- */
@@ -623,6 +630,12 @@ nav .nav-list li a.nav-highlight:hover {
   border-top: 1px solid var(--border-default);
   font-size: 0.8rem;
   color: var(--text-tertiary);
+}
+
+.article-meta span {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
 }
 
 .article-journal-link {
